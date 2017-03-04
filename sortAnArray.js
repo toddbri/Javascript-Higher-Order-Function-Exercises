@@ -15,11 +15,10 @@ var people = [
   'Che',
   'Ben'
 ];
-
-console.log(people.sort());
+console.log("sorted in alphabetical order");
+console.log(people.sort()); //this is a regular sort
 
 function reverseSort(a,b){
-    console.log("a: " + a + " , b: " + b + " - " + (a<b));
     if (a<b){
       return 1;
 
@@ -28,5 +27,6 @@ function reverseSort(a,b){
     } else {return 0;}
 }
 
-console.log("-".repeat(10));
-console.log(people.sort(reverseSort));
+console.log("-".repeat(8));
+console.log("sorted in reverse alphabetical order");
+console.log(people.sort(reverseSort)); //this will sort in reverse order
