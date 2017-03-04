@@ -8,7 +8,7 @@ function strJoin(strs,sep){
     }
     return output;
   }
-  return strs.reduce(joinIt,"");
+  return strs.reduce(joinIt,""); //this is what sets things in motion
 }
 
 // ------Alternate method --------
@@ -23,7 +23,7 @@ function strJoinAlternate(strs,sep){
     }
   }
 
-  return strs.reduce(joinIt,"");
+  return strs.reduce(joinIt,"");   //this is what sets things in motion
 }
 
 console.log(strJoin(['Hello', 'and', 'goodbye'], ' '));
