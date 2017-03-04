@@ -6,10 +6,10 @@ var cities = [
 ];
 
 
-function lt70(city){
+function names(city){
   return city.name;
 
 }
 
-var nameofCities = cities.map(lt70);
+var nameofCities = cities.map(names);
 console.log(nameofCities);
