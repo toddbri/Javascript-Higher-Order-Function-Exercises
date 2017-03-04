@@ -19,7 +19,6 @@ var people = [
 
 
 function lengthSort(a,b){
-    console.log("a: " + a + " , b: " + b + " - " + (a.length<b.length));
     if (a.length>b.length){
       return 1;
 
